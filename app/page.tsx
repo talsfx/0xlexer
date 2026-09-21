@@ -13,7 +13,7 @@ export default function Home() {
     <div className="h-screen w-screen">
       <Image alt="" src={Background} className="w-full h-full object-cover" />
       <div className="block backdrop-blur-md w-screen h-screen absolute inset-0 items-center justify-evenly justify-items-center">
-        <div className="flex flex-col items-center gap-4 bg-white/15 px-8 py-3 w-3/4 md:py-6 mt-24 md:mt-36 md:w-5/12 backdrop-blur-3xl shadow-sm rounded-xl md:rounded-lg bg justify-items-center">
+        <div className="flex flex-col items-center gap-4 bg-white/15 px-8 py-3 w-3/4 md:py-6 mt-24 md:mt-36 md:w-5/12 backdrop-blur-3xl shadow-sm rounded-2xl md:rounded-xl bg justify-items-center border border-white/10">
           <Image className="w-32 md:w-48 md:h-48 rounded-full " alt="" src={ProfileImg} />
           <p className="text-2xl md:text-5xl font-mono text-shadow-md font-semibold text-center">0xlexer</p>
           <p className="text-md md:text-lg font-mono text-slate-700 font-bold text-center">#1 of losing clash in limbussy🙏</p>

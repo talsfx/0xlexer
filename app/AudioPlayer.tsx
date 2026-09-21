@@ -51,7 +51,7 @@ export default function AudioPlayer() {
   }, []);
 
   return (
-    <div className="flex flex-row items-center justify-center w-5/6 max-w-2xl h-20 bg-cyan-50/10 rounded-lg backdrop-blur-md border border-white/10 shadow-lg">
+    <div className="flex flex-row items-center justify-center w-5/6 max-w-2xl h-20 bg-cyan-50/10 rounded-xl backdrop-blur-md border border-white/10 shadow-lg">
       <div className="flex items-center gap-4 w-full px-6 bg-transparent">
         
         <audio
