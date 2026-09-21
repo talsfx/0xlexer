@@ -56,7 +56,7 @@ export default function AudioPlayer() {
         
         <audio
           ref={audioRef}
-          src="/LimbusTheme.mp3"
+          src="/CutYourRings.mp3"
         />
 
         <button
@@ -71,8 +71,8 @@ export default function AudioPlayer() {
         </button>
 
         <div className="text-white min-w-12 flex flex-col justify-center">
-          <p className="text-sm font-bold leading-tight truncate">VII Boss 4</p>
-          <p className="text-xs opacity-70 tracking-tight truncate">Project Moon</p>
+          <p className="text-sm font-bold leading-tight truncate">Cut Your Rings</p>
+          <p className="text-xs opacity-70 tracking-tight truncate">Limbus Company OST</p>
         </div>
 
         <div className="flex-1 h-1.5 bg-white/20 rounded-full overflow-hidden relative cursor-pointer">
